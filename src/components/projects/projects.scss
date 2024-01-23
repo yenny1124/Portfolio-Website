@@ -47,6 +47,11 @@
                 object-fit: cover;
             }
 
+            img:hover {
+                width: 103%;
+                height: 103%;
+            }
+
         }
 
         .textContainer {

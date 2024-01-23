@@ -1,5 +1,6 @@
 import { motion } from "framer-motion"
 import "./yeeunchoi.scss"
+import Projects from "../projects/Projects"
 
 const textVariants = {
     initial: {
@@ -50,8 +51,8 @@ const YeeunChoi = () => {
                     <motion.h2 variants={textVariants}>YEEUN CHOI</motion.h2>
                     <motion.h1 variants={textVariants}>Software Engineer</motion.h1>
                     <motion.div variants={textVariants} className="buttons">
-                        <motion.button variants={textVariants} className="latestWorksButton">See the Latest Works</motion.button>
-                        <motion.button variants={textVariants} className="contactMeButton">Contact Me</motion.button>
+                        <motion.button variants={textVariants} className="latestWorksButton"><a href={`#Projects`}>See the Latest Works</a></motion.button>
+                        <motion.button variants={textVariants} className="contactMeButton"><a href={`#Contact`}>Contact Me</a></motion.button>
                     </motion.div>
                     <motion.img variants={textVariants} animate="scrollButton" src="/scroll2.png" alt="" />
                 </motion.div>
@@ -60,7 +61,7 @@ const YeeunChoi = () => {
                 Backend Full-Stack Software Development Engineer
             </motion.div>
             <div className="imageContainer">
-                <img src="/yeeunchoi.png" alt="" />
+                <img src="/yeeunchoi.png" alt="yeeunchoi" />
             </div>
         </div>
     )
