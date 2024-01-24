@@ -8,23 +8,23 @@ const items = [
         id: 1,
         title: "Business Review Website",
         img: "/BusinessReviewWebsite.png",
-        desc: "    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit voluptatibus voluptates obcaecati sequi! Sequi, labore! Consequatur suscipit natus saepe esse repellat ipsam aut deleniti quos cumque! Itaque eum neque veritatis.",
+        desc: "Node.js, React.js, MongoDB",
         link: "https://github.com/yenny1124/Business-Review-Website-",
     },
 
-    // {
-    //     id: 2,
-    //     title: "Movie Ticket Price Recommendation Engine",
-    //     img: "https://images.pexels.com/photos/18148613/pexels-photo-18148613/free-photo-of-horses-running-in-a-shadow.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
-    //     desc: "    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit voluptatibus voluptates obcaecati sequi! Sequi, labore! Consequatur suscipit natus saepe esse repellat ipsam aut deleniti quos cumque! Itaque eum neque veritatis.",
-    //     link: "",
-    // },
+    {
+        id: 2,
+        title: "Movie Ticket Price Recommendation Engine",
+        img: "movieTicket2.png",
+        desc: "Java, PostgreSQL",
+        link: "https://github.com/yenny1124/Movie-Ticket-Price-Recommendation-Engine.git",
+    },
 
     {
         id: 3,
         title: "Movie Rental Store Inventory System",
         img: "movie.png",
-        desc: "    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit voluptatibus voluptates obcaecati sequi! Sequi, labore! Consequatur suscipit natus saepe esse repellat ipsam aut deleniti quos cumque! Itaque eum neque veritatis.",
+        desc: "C++, HashTable, Binary Search Tree",
         link: "https://github.com/yenny1124/MovieRentalStore",
     },
 
@@ -32,7 +32,7 @@ const items = [
         id: 4,
         title: "Educational Resources Inventory",
         img: "BLM.png",
-        desc: "    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit voluptatibus voluptates obcaecati sequi! Sequi, labore! Consequatur suscipit natus saepe esse repellat ipsam aut deleniti quos cumque! Itaque eum neque veritatis.",
+        desc: "Java, Sorting Algorithms",
         link: "https://github.com/yenny1124/BLM_Database",
     },
 ]
