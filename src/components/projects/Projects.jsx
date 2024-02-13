@@ -6,6 +6,13 @@ import PropTypes from 'prop-types'; // Import PropTypes
 const items = [
     {
         id: 1,
+        title: "Restaurant Ordering App",
+        img: "/RestaurantOrderingApp.png",
+        desc: "Node.js, React.js, MongoDB",
+        link: "https://rollsandrollsplussushi.netlify.app",
+    },
+    {
+        id: 2,
         title: "Business Review Website",
         img: "/BusinessReviewWebsite.png",
         desc: "Node.js, React.js, MongoDB",
@@ -13,7 +20,7 @@ const items = [
     },
 
     {
-        id: 2,
+        id: 3,
         title: "Movie Ticket Price Recommendation Engine",
         img: "movieTicket2.png",
         desc: "Java, PostgreSQL",
@@ -21,7 +28,7 @@ const items = [
     },
 
     {
-        id: 3,
+        id: 4,
         title: "Movie Rental Store Inventory System",
         img: "movie.png",
         desc: "C++, HashTable, Binary Search Tree",
@@ -29,7 +36,7 @@ const items = [
     },
 
     {
-        id: 4,
+        id: 5,
         title: "Educational Resources Inventory",
         img: "BLM.png",
         desc: "Java, Sorting Algorithms",
