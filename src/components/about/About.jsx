@@ -7,7 +7,7 @@ function About() {
                 <h1>Who Am I?</h1>
                 <img src="/yeeunchoi2.png" alt="yeeunchoi2" />
                 <p> I am a senior <strong>Computer Science</strong> student at the UW Bothell. <br />
-                    I'm currently working as a <strong>software Engineer intern</strong><br />
+                    I'm currently working as a <strong>Software Engineer intern</strong><br />
                     I have experience for many years in <strong>Java, Node.js, React.js, C++</strong>, and <strong>PostgresSQL</strong>.</p>
 
                 <p>My time in college has given me a solid foundation, and <br />
