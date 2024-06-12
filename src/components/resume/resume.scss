@@ -1,3 +1,5 @@
+@import "../../app.scss"; // import mobile style 
+
 .resume {
     h1 {
         padding: 10px;
@@ -5,6 +7,10 @@
         align-items: center;
         justify-content: center;
         font-size: 60px;
+
+        @include mobile {
+            font-size: 40px;
+        }
     }
 
     .resumeContainer {
@@ -17,11 +23,29 @@
         img {
             width: 38%;
             height: 38%;
+
+            @include mobile {
+                height: 30%;
+                width: 80%;
+                gap: 20px;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            }
+
         }
 
         img:hover {
             width: 42%;
             height: 42%;
+
+            @include mobile {
+                height: 50%;
+                width: 100%;
+                gap: 20px;
+                align-items: center;
+                text-align: center;
+            }
         }
     }
 }
