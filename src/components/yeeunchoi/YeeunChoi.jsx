@@ -48,7 +48,7 @@ const YeeunChoi = () => {
         <div className="yeeunchoi">
             <div className="wrapper">
                 <motion.div className="textContainer" variants={textVariants} initial="initial" animate="animate">
-                    <motion.h2 variants={textVariants}>YEEUN CHOI</motion.h2>
+                    <motion.h2 variants={textVariants}>JAMIE CHOI</motion.h2>
                     <motion.h1 variants={textVariants}>Software Engineer</motion.h1>
                     <motion.div variants={textVariants} className="buttons">
                         <motion.button variants={textVariants} className="latestWorksButton"><a href={`#Projects`}>See the Latest Works</a></motion.button>
